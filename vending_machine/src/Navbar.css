@@ -1,0 +1,18 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: rgba(69, 90, 100, 1);
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: rgba(144, 164, 174, 1);
+    transition: all 0.5s ease;
+}
+.Navbar a.active {
+    color: white;
+}
+
+  

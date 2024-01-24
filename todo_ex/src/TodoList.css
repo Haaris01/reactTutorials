@@ -1,0 +1,42 @@
+.TodoList-container{
+
+    display: block;
+	width: 400px;
+	margin: 150px auto 100px;
+	background-color:#fff;
+	padding:0px 10px 10px 10px;
+	border-radius:10px
+}
+
+.TodoList-title{
+    text-align:center;
+	padding-top:10px;
+	margin-bottom:0px;
+    clear: both;
+	list-style: none;
+}
+
+.TodoList-list{
+    margin: 0;
+	padding: 0;
+}
+
+.TodoList-subtitle{
+    color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 2px solid #333;
+	padding: 20px 0 10px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.TodoList-muted{
+    color: rgba(51, 51, 51, 0.379);
+	font-weight: 400;
+	font-size: 15px;
+	padding: 20px 0 10px;
+	margin: 0;
+    text-align: center;
+	text-transform: uppercase;
+}

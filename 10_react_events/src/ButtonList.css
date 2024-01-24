@@ -1,0 +1,7 @@
+.ButtonList button{
+    margin : 200px 50px;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px ;
+    color: white;
+}

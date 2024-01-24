@@ -1,0 +1,83 @@
+li * {
+	float: left;
+}
+
+li{
+	clear: both;
+	list-style: none;
+    overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+	margin: 0 10px;
+	position: relative;
+	top: 15px;
+}
+
+li > label {
+	font-size: 18px;
+	line-height: 40px;
+	width: 237px;
+	padding: 0 0 0 11px;
+}
+
+li > input[type="text"] {
+	width: 226px;
+}
+
+li > .delete:hover {
+	color: #CF2323;
+}
+
+li input[type=text] {
+	display: none;
+}
+
+li.editMode input[type=text] {
+	display: block;
+}
+
+li.editMode label {
+	display: none;
+}
+
+.Todo-btn{
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.Todo-Compl{
+    text-decoration: line-through;
+    color: #888;
+    transition: all ease-in 0.5s;
+}
+
+@keyframes strike{
+    0%   { width : 0; }
+    100% { width: 100%; }
+  }
+  .Todo-Compl {
+    position: relative;
+  }
+  .Todo-Compl::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: inherit;
+    height: 1px;
+    background: black;
+    animation-name: strike;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+  }

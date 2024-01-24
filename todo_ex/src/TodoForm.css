@@ -1,0 +1,57 @@
+label[htmlFor='task'] {
+	color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 2px solid #333;
+	padding: 20px 0 10px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+input[type="text"] {
+	margin: 10px 15px 10px 5px;
+    width: 70%;
+	font-size: 18px;
+	line-height: 18px;
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 6px;
+	font-family: Lato, sans-serif;
+	color: #888;
+}
+
+input #task {
+	float: left;
+	width: 318px;
+}
+
+input[type="text"]:focus {
+	color: #333;
+}
+
+label[for='new-task'] {
+	display: block;
+	margin: 0 0 20px;
+}
+
+input,
+.TodoForm-btn {
+	outline: none;
+}
+
+.TodoForm-btn{
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.TodoForm-btn:hover{
+    color : #333;
+}
